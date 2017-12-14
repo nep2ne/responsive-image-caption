@@ -45,7 +45,7 @@ figure {
 figcaption {
   background-color: #e2e2e2;
   display: block;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 h2 {
@@ -55,7 +55,6 @@ h2 {
 
 p {
   font-family: Georgia, serif;
-  margin: 0 0 1.3rem;
 }
 
 @media only screen and (min-width: 25em) {
@@ -86,7 +85,6 @@ p {
   }
 
   p {
-    margin: 0 0 1.4rem;
     color: #fff;
   }
 
@@ -95,9 +93,10 @@ p {
     background-color: rgba(0,0,0,.3);
     float: right;
     position: absolute;
-    right: 15px;
-    bottom: 15px;
+    right: 20px;
+    bottom: 25px;
     margin: 0;
+    padding: 1rem 1rem 0;
     max-width: 60%;
   }
 }
@@ -112,21 +111,21 @@ p {
     position: relative;
   }
 
-  img {
+  figure {
     position: absolute;
+  }
+
+  img {
+    position: relative;
     bottom: 0;
     left: 0;
   }
 
   figcaption {
-    margin: 0 0 1.5rem;
+    width: 40%;
   }
 
   h2 {
-    margin: 0 0 1.5rem;
-  }
-
-  p {
     margin: 0 0 1.5rem;
   }
 }
@@ -136,5 +135,4 @@ p {
   html {
     font: normal 130%/1.5 sans-serif;
   }
-
 }
